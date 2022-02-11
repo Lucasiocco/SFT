@@ -1,0 +1,39 @@
+/* Footer */
+.footer {
+    background-color: rgb(29, 29, 29);
+    font-size: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    &__img {
+        width: 100px;
+        height: auto;
+    }
+    &__nav {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    }
+    &__ul {
+        & li {
+            list-style-type: none;
+            & a{
+                list-style-type: none;
+                color: #ccc;
+                &:hover {
+                    color: $amarillo;
+                }
+            }
+        }
+    }
+    & a img {
+        width: $imgRedes;
+        height: $imgRedes;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

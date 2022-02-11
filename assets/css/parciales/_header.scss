@@ -1,0 +1,68 @@
+/* header*/
+.header {
+    background-color: #1d1d1d;
+    height: 120px;
+    width: 100%;
+    padding: 0px 5px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    &__logo {
+        width: 100px;
+        height: 100px;
+    }
+    &__redes img {
+        width: $imgRedes;
+        height: $imgRedes;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.offcanvas {
+    margin: 5px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.offcanvas-header {
+    background-color: $naranja;
+}
+
+.offcanvas-body {
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.navbar {
+    font-family: 'Raleway', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar *{
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.nav-item a {
+    color: #ffffff;
+    &:hover {
+        color: $amarillo;
+    }
+}
+
+.navbar-toggler {
+    color: $naranja;
+    .navbar-toggler-icon {
+        color: $naranja;
+    }
+}
