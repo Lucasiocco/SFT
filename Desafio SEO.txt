@@ -1,0 +1,12 @@
+Desafio SEO:
+
+-Todo los archivos contienen keywords generales y a su vez cada uno cuenta con keywords 
+especificas, por ejemplo en main.html se agregaron las keywords "TOKENOMICS, ROADMAP".
+-Cada archivo tiene un title especifico que se condice con el contenido de la pagina.
+-Carpetas y archivos con nombres relacionados al contenido de cada pagina.
+-Se utilizo la herramienta TinyPNG para modificar el peso de las imagines, quitando toda
+la informacion que no es relevante.
+-Se creo una pagina 404 que redirige a la homepage. Desde la pagina de inicio si hacemos
+click en los 3 logos nos dirige a la pagina Error404.
+-Diseño responsive para dispositivos moviles.
+

@@ -1,4 +1,174 @@
 /* main secciones */
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 1024px) {
+    .bg-image {
+        background-attachment: scroll;
+    }
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.hero .hero-content {
+    text-align: center;
+    position: absolute;
+}
+
+.hero .overlay-itro {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.hero .hero-title {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    .hero .hero-title {
+        font-size: 4.5rem;
+    }
+}
+
+.hero .hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .hero .hero-subtitle {
+        font-size: 2.5rem;
+    }
+}
+
+.hero .text-slider-items {
+    display: none;
+}
+.hero-single {
+    height: 350px;
+}
+.hero-single .hero-content {
+    margin-top: 30px;
+}
+.hero-single .hero-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    .hero-single .hero-title {
+        font-size: 3.5rem;
+    }
+}
+
+.hero-single .breadcrumb {
+    background-color: transparent;
+    color: #db6300;
+}
+
+.hero-single .breadcrumb .breadcrumb-item:before {
+    color: #cde1f8;
+}
+
+.hero-single .breadcrumb .breadcrumb-item.active {
+    color: #cde1f8;
+}
+
+.hero-single .breadcrumb a {
+    color: #fff;
+}
+
+.overlay-mf {
+    background-color: #585858c9;
+}
+
+.overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+}
+
+.display-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*------/ Prelaoder /------*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #f2f2f2;
+    border-top: 6px solid #db6300;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 h1 {
     font-family: "Bungee Outline", cursive;
@@ -79,9 +249,11 @@ h2 {
     align-items: center;
     margin-bottom: 100px;
     margin-top: 100px;
+
     &__div {
         flex-direction: row;
     }
+
     &__iframe {
         box-shadow: #111 0px 4px 9px;
         margin: 20px;
@@ -102,25 +274,30 @@ section img {
 --------------------------------------------------------------*/
 .services {
     margin-top: 150px;
+
     .icon-box {
         text-align: center;
         background: rgba(204, 204, 204, 0.1);
         padding: 80px 20px;
         transition: all ease-in-out 0.3s;
+
         h2 {
             font-weight: 700;
             margin-bottom: 15px;
             font-size: 24px;
             color: black;
+
             a {
                 color: rgb(0, 0, 0);
             }
         }
+
         p {
             line-height: 24px;
             font-size: 14px;
             margin-bottom: 0;
         }
+
         .icon {
             margin: 0 auto;
             width: 64px;
@@ -133,10 +310,12 @@ section img {
             justify-content: center;
             margin-bottom: 20px;
             transform-style: preserve-3d;
+
             i {
                 color: rgb(0, 0, 0);
                 font-size: 28px;
             }
+
             .icon::before {
                 position: absolute;
                 content: "";
@@ -152,19 +331,24 @@ section img {
         }
     }
 }
+
 .services .icon-box:hover {
     background: $naranja;
     border-color: #ff4800;
+
     .icon {
         background: #000000;
+
         i {
             color: #ff4800;
         }
     }
 }
+
 .icon-box:hover .icon::before {
     background: #303030b6;
 }
+
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
     transform: scale(1.2);
@@ -385,6 +569,7 @@ section img {
     align-items: center;
     margin-top: 50px;
     padding-bottom: 50px;
+
     &__middle {
         display: flex;
         justify-content: flex-end;
@@ -394,6 +579,7 @@ section img {
         -ms-transform: translate(-50%, -50%);
         margin-left: 110px;
     }
+
     &__fotoperfil {
         opacity: 1;
         max-width: 90%;
@@ -404,19 +590,23 @@ section img {
         backface-visibility: hidden;
         box-shadow: 0px 4px 9px black;
     }
+
     &__text {
         background-color: #333;
         color: white;
         font-size: 16px;
         padding: 16px 32px;
     }
+
     .equipo:hover &__fotoperfil {
         opacity: 0.3;
     }
+
     .equipo:hover &__middle {
         opacity: 1;
     }
 }
+
 .iframe2:hover {
     transform: scale(1.2);
 }
@@ -427,9 +617,11 @@ section img {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     &__inv {
         justify-items: center;
         align-items: center;
+
         &:hover {
             transform: scale(1.5);
         }
@@ -464,7 +656,6 @@ section img {
     position: absolute;
     top: 0;
     bottom: 0;
-    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -534,29 +725,35 @@ section img {
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
+
     &__exit,
     &__icon {
         position: relative;
         text-decoration: none;
         color: rgba(255, 255, 255, 0.9);
     }
+
     &__exit {
         grid-row: 1/2;
         justify-self: end;
     }
+
     &__icon {
         grid-row: 2/3;
         font-size: 30px;
     }
+
     &__title {
         grid-row: 3/4;
         font-weight: 200;
         color: #ffffff;
     }
+
     &__apply {
         grid-row: 4/5;
         align-self: center;
     }
+
     &__icon img {
         display: flex;
         margin-left: 0;
