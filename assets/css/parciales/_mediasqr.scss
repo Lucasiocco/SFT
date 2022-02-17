@@ -102,14 +102,43 @@
     .row {
         margin-right: 0px;
     }
+    .containerMain1 {
+        overflow: hidden;
+        height: 250px;
+    }
+    section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 20%;
+    }
+    .partners__img {
+        width: 80px;
+    }
 }
 
 @media screen and (max-width: 376px) {
     .cards {
         width: 370px;
         }
-        .partners {
-            width: 370px;
+        .containerMain1 {
+            overflow: hidden;
+            height: 220px;
+        }
+        section img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+        .carousel-control-next, .carousel-control-prev {
+            width: 20%;
+        }
+        .partners__img {
+            width: 60px;
         }
 }
 
@@ -150,5 +179,21 @@
         width: 50px;
         justify-content: center;
         align-items: center;
+    }
+    .containerMain1 {
+        overflow: hidden;
+        height: 220px;
+    }
+    section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 20%;
+    }
+    .partners__img {
+        width: 50px;
     }
 }

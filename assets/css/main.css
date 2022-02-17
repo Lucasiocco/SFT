@@ -834,6 +834,7 @@ section img {
   text-shadow: #ffd000 2px 2px;
   word-spacing: 10px;
   margin-top: 120px;
+  overflow: hidden;
 }
 
 .containerMain1 {
@@ -844,6 +845,7 @@ section img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 25px;
 }
 
 #carouselExampleCaptions {
@@ -1244,14 +1246,43 @@ section img {
   .row {
     margin-right: 0px;
   }
+  .containerMain1 {
+    overflow: hidden;
+    height: 250px;
+  }
+  section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 20%;
+  }
+  .partners__img {
+    width: 80px;
+  }
 }
 
 @media screen and (max-width: 376px) {
   .cards {
     width: 370px;
   }
-  .partners {
-    width: 370px;
+  .containerMain1 {
+    overflow: hidden;
+    height: 220px;
+  }
+  section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 20%;
+  }
+  .partners__img {
+    width: 60px;
   }
 }
 
@@ -1304,6 +1335,22 @@ section img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .containerMain1 {
+    overflow: hidden;
+    height: 220px;
+  }
+  section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 20%;
+  }
+  .partners__img {
+    width: 50px;
   }
 }
 /*# sourceMappingURL=main.css.map */
