@@ -118,6 +118,9 @@
     .partners__img {
         width: 80px;
     }
+    .equipo__fotoperfil {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -139,6 +142,9 @@
         }
         .partners__img {
             width: 60px;
+        }
+        .equipo__fotoperfil {
+            width: 60%;
         }
 }
 
@@ -195,5 +201,8 @@
     }
     .partners__img {
         width: 50px;
+    }
+    .equipo__fotoperfil {
+        width: 70%;
     }
 }
