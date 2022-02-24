@@ -146,6 +146,24 @@
         .equipo__fotoperfil {
             width: 60%;
         }
+        .header__redes img {
+            display: none;
+        }
+        .navbar-toggler {
+            display: flex;
+        }
+        .navbar-toggler-icon {
+            width: 60px;
+            height: 60px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar-toggler-icon img {
+            width: 50px;
+            justify-content: center;
+            align-items: center;
+        }
 }
 
 @media screen and (max-width: 321px) {
