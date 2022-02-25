@@ -1008,7 +1008,7 @@ section img {
 }
 
 /* Pagina Whitepapper */
-.row {
+#whitepapper {
   margin-top: 120px;
   height: 800px;
   overflow: hidden;
