@@ -48,6 +48,9 @@
         justify-items: center; 
         align-items: center; 
     }
+    #whitepapper {
+        width: 760px;
+    }
 }
 
 @media screen and (max-width: 1282px) {
@@ -121,6 +124,16 @@
     .equipo__fotoperfil {
         width: 60%;
     }
+    #whitepapper {
+        width: 420px;
+    }
+    .nav {
+        font-size: 12px;
+    }
+    .navbar-brand {
+        font-size: 15px;
+        margin-left: 5px;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -163,6 +176,16 @@
             width: 50px;
             justify-content: center;
             align-items: center;
+        }
+        #whitepapper {
+            width: 375px;
+        }
+        .nav {
+            font-size: 12px;
+        }
+        .navbar-brand {
+            font-size: 15px;
+            margin-left: 5px;
         }
 }
 
@@ -222,5 +245,15 @@
     }
     .equipo__fotoperfil {
         width: 70%;
+    }
+    .nav {
+        font-size: 12px;
+    }
+    .navbar-brand {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    #whitepapper {
+        width: 315px;
     }
 }

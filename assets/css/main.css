@@ -1174,6 +1174,9 @@ section img {
         -ms-flex-align: center;
             align-items: center;
   }
+  #whitepapper {
+    width: 760px;
+  }
 }
 
 @media screen and (max-width: 1282px) {
@@ -1266,6 +1269,16 @@ section img {
   .equipo__fotoperfil {
     width: 60%;
   }
+  #whitepapper {
+    width: 420px;
+  }
+  .nav {
+    font-size: 12px;
+  }
+  .navbar-brand {
+    font-size: 15px;
+    margin-left: 5px;
+  }
 }
 
 @media screen and (max-width: 376px) {
@@ -1320,6 +1333,16 @@ section img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  #whitepapper {
+    width: 375px;
+  }
+  .nav {
+    font-size: 12px;
+  }
+  .navbar-brand {
+    font-size: 15px;
+    margin-left: 5px;
   }
 }
 
@@ -1391,6 +1414,16 @@ section img {
   }
   .equipo__fotoperfil {
     width: 70%;
+  }
+  .nav {
+    font-size: 12px;
+  }
+  .navbar-brand {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  #whitepapper {
+    width: 315px;
   }
 }
 /*# sourceMappingURL=main.css.map */
