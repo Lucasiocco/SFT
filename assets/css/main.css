@@ -1008,36 +1008,6 @@ section img {
 }
 
 /* Pagina Whitepapper */
-#whitepapper {
-  margin-top: 120px;
-  height: 800px;
-  overflow: hidden;
-}
-
-.col-4, .col-8 {
-  height: 700px;
-  overflow: hidden;
-}
-
-.scrollspy-example-2 {
-  position: relative;
-  height: 600px;
-  overflow: auto;
-  padding-right: 30px;
-}
-
-#nested-navbar-scrollspy {
-  padding: 0;
-}
-
-.nav-link {
-  color: #000000;
-}
-
-.nav-pills .nav-link.active {
-  background-color: #333;
-}
-
 /* Footer */
 .footer {
   background-color: #1d1d1d;
