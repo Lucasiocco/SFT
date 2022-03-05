@@ -500,13 +500,6 @@ section img {
   background: #303030b6;
 }
 
-.services .icon-box:hover h4 a,
-.services .icon-box:hover p {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-  padding: 2px;
-}
-
 /*pagina contacto*/
 .contact {
   padding-bottom: 130px;
@@ -1008,6 +1001,35 @@ section img {
 }
 
 /* Pagina Whitepapper */
+#accordionFlush {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+  padding-bottom: 250px;
+}
+
+.accordion-button {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Raleway', Arial, sans-serif;
+  text-transform: uppercase;
+  z-index: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #db6300;
+}
+
+.accordion-button:focus {
+  border-color: #ffd000;
+}
+
 /* Footer */
 .footer {
   background-color: #1d1d1d;
